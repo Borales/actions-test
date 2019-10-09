@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "lint": "echo Linting",
+    "test": "echo Testing",
+    "coverage": "echo Coverage"
+  },
+  "dependencies": {
+    "node-fetch": "2.6.0"
+  }
+}
