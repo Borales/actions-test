@@ -3,6 +3,7 @@ on: [push, pull_request]
 jobs:
   build:
     name: Test
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
       - uses: docker://borales/yarn
