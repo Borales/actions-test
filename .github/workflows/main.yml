@@ -6,6 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: docker://borales/yarn
+      - uses: docker://borales/yarn@master
         with:
           args: version
